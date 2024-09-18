@@ -17,3 +17,5 @@ You may also see any lint errors in the console.
 # Hero and Landing page
 
 <img width="1800" alt="Screenshot 2024-09-18 at 2 00 54 PM" src="https://github.com/user-attachments/assets/38a5e921-b455-4ffb-aaaf-1e7102b2f4d2">
+Above you can see the landing page and Hero component of the Sonos website. Due to copyright awareness, I have sourced all of the video and images directly from the Sonos website itself (Not saving any images locally to this repository). Not eveident in the image is that this section is actually a video that loops and is dynamically sized depending on the users screen. Overflow is hidden in the corresponding Hero.css file so the video does not get horribly distorted. 
+
