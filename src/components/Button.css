@@ -1,0 +1,40 @@
+.button {
+  background: transparent;
+  border: 2px solid #ffffff; /* Button border color */
+  border-radius: 40px; /* Makes the button round */
+  color: #ffffff; /* Button text color */
+  font-size: 1rem; /* Default font size */
+  padding: 10px 20px; /* Default padding */
+  cursor: pointer; /* Change cursor to pointer */
+  text-align: center;
+  display: inline-flex; /* Center text */
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s, border 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Size Variants */
+.button.small {
+  width: 80px; /* Small size width */
+  height: 40px; /* Small size height */
+  font-size: 0.75rem; /* Adjust font size */
+}
+
+.button.medium {
+  width: 150px; /* Medium size width */
+  height: 60px; /* Medium size height */
+  font-size: 1rem; /* Adjust font size */
+}
+
+.button.large {
+  width: 1600px; /* Large size width */
+  height: 80px; /* Large size height */
+  font-size: 1.25rem; /* Adjust font size */
+}
+
+/* Optional: Add hover effects */
+.button:hover {
+  color: #999999; /* Change text color on hover */
+  border: 2px solid #999999; /* Button border color */
+}
+

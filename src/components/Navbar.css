@@ -1,0 +1,72 @@
+.Navbar-container {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.2rem 5rem;
+}
+
+.logo {
+  margin-right: auto; /* Aligns the logo to the left */
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 0.3em;
+}
+
+.nav-opt {
+  display: flex;
+  flex: 1; /* Allows nav-opt to grow and occupy space */
+  justify-content: center; /* Center the nav-menu within nav-opt */
+}
+
+.nav-item {
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.nav-menu {
+  list-style: none; /* Removes bullet points */
+  display: flex; /* Makes the items display in a row */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+/* Styling for individual menu items */
+.nav-item {
+  margin-right: 20px; /* Adds spacing between items */
+}
+
+.nav-item:last-child {
+  margin-right: 0; /* No spacing after the last item */
+}
+
+/* Optional: Style the links if you plan to add routing */
+.nav-links {
+  text-decoration: none; /* Removes underline from links */
+  color: black; /* Sets text color */
+  font-weight: 400; /* Makes the text bold */
+}
+
+.nav-links:hover {
+  color: #0073e6; /* Changes color on hover */
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-icon-link {
+  margin-left: 20px;
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-icon-link:hover {
+  color: #0073e6;
+}
+
+/* Style the logo */
