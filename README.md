@@ -13,3 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+# Hero and Landing page
+
+<img width="1800" alt="Screenshot 2024-09-18 at 2 00 54 PM" src="https://github.com/user-attachments/assets/38a5e921-b455-4ffb-aaaf-1e7102b2f4d2">
