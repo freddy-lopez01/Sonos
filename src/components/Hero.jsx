@@ -12,7 +12,6 @@ const Hero = () => {
       <div className="hero-body">
         <div className="hero-text">
           <h1>Effortless Listening</h1>
-          <Button label="Medium" size="medium" />
         </div>
       </div>
     </div>
